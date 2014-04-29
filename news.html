@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Welcome to Istim</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link href="http://netdna.bootstrapcdn.com/bootswatch/3.1.1/slate/bootstrap.min.css" rel="stylesheet">
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css" >
+  <link rel="stylesheet" href="css/chat.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+
+  <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content signup-modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="myModalLabel">Sign Up</h4>
+        </div>
+        <div class="modal-body signup-modal-body">
+          <form class="form-horizontal">
+            <fieldset class="login-popup">
+              <div class="form-group">
+                <div class="col-xs-12">
+                  <input class="form-control" type="text" for="firstName" placeholder="First name">
+                  <input class="form-control" type="text" for="lastName" placeholder="Last name">
+                  <input class="form-control" type="date" for="birthDate" placeholder="Birth date">
+                  <input class="form-control" type="email" for="email" placeholder="Email">
+                  <input class="form-control" type="password" for="password" placeholder="Password">
+                  <input class="form-control" type="password" for="password_confirmation" placeholder="Confirm password">
+                </div>
+              </div>
+            </fieldset>
+            <input type="submit" class="btn btn-success col-xs-12" value="Sign Up">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add your site or application content here -->
+  <div class="navbar navbar-default">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Istim &trade;</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="games.html">My Games</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Cash<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Recharge</a></li>
+                <li><a href="transfer.html">Transfer</a></li>
+                <li><a href="#">Transfer History</a></li>
+                <li><a href="rechargehistory.html">Recharge History</a></li>
+            </ul>
+        </li>
+        <li><a href="buy_games.html">Buy Games</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="statistics.html">Statistics</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="profile.html"><span class="fa icon fa-user"></span>Profile</a></li>
+        <li><a href="#"><span class="fa icon fa-sign-out"></span>Sign out</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!--Left Lateral Bar-->
+
+  <div class="container-fluid">
+
+
+    <div class="row">
+      <div class="col-xs-3">
+        <div class="list-group">
+          <a href="#" class="list-group-item">
+            <div class="row">
+              <div class="col-xs-4">
+                <img class="img-responsive" src="http://placehold.it/200x200">
+              </div>
+              <div class="col-xs-8">
+                <h4 class="list-group-item-heading">Nome do Jogador</h4>
+                <p class="list-group-item-text">
+                  Moedas: <span class="color-yellow"><i class="fa fa-bitcoin"></i> 131231</span>
+                </p>
+              </div>
+            </div>
+
+          </a>
+        </div>
+
+        <div id="div1" class="list-group">
+
+          <a id="a1" href="#" class="list-group-item">
+            Mario da burrinha <span class="fa icon fa-user pull-right color-green"></span>
+          </a>
+          <a href="#" class="list-group-item">
+            Victor Henrique <span class="fa icon fa-user pull-right"></span>
+          </a>
+          <a href="#" class="list-group-item">
+            ninguem <span class="fa icon fa-user pull-right"></span>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="col-xs-9">
+        <div class="panel">
+          <ul>
+            <li>
+              <p>
+                <span class="color-yellow"><b>Entenda por que o 3G brasileiro é tão ruim</b></span>
+                <p>Dizer que o 3G no Brasil é ruim pode parecer “chover no molhado”. Mas a gente não se contenta; nem aceita – afinal pagamos caro; bem caro! Fomos entender porque a banda larga móvel no Brasil é tão inferior à qualidade dos serviços oferecidos em outros países. Conversamos com dois especialistas em telefonia móvel para entender onde está o problema. A surpresa é que não existe uma lista de problemas; pelo contrário, é até fácil resumir o porquê do nosso 3G ser tão ruim. Quer dizer, parece simples, mas é complicado (...)</p>
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="color-yellow"><b>Facebook: dicas para você manter a privacidade sem perder amizade</b></span>
+                <p>Usar o Facebook pode parecer fácil logo que você cria sua conta na rede social, mas com o passar do tempo o usuário percebe que a história é outra. Você começa a receber notificações de tudo o que uma pessoa faz, além de um monte de mensagens de grupos em que entrou. Também é comum ficar irritado com amigos que acabam expondo demais dados dos outros na rede. Embora nem tudo possa ser escondido, é possível ajustar alguns itens para manter a privacidade sem perder a amizade.(...)</p>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-9">
+          <div class="panel panel-default">
+            <div class="panel-footer">
+              © 2014 Istim Corporation. Todos os direitos reservados. Todas as marcas são propriedade dos seus respectivos donos no BRASIL.
+            </div>
+          </div>
+      </div>
+
+    </div><!-- .row -->
+
+  </div><!-- .container-fluid -->
+
+
+  <div id="box" class="chat-box">
+    <input type="checkbox" />
+    <label data-expanded="Close Chatbox" data-collapsed="Open Chatbox"></label>
+    <div class="chat-box-content">
+
+      <div id="chatScreen" class="well well-lg chat-screen" >
+
+      </div>
+
+      <div class="form-group">
+        <label class="control-label">Input addons</label>
+        <div class="input-group" style="width: 100%;">
+          <input onkeydown="buttonEnterPressed()" id="textarea" type="text" class="form-control">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script>
+  var x = "#box";
+  $(x).hide();
+
+  $("#a1").click(function(){
+    $("#box").show();
+  });
+
+  function message()
+  {
+    document.getElementById("chatScreen").innerHTML += "<br>" +  document.getElementById("textarea").value;
+    document.getElementById("textarea").value = "";
+    document.getElementById("chatScreen").scrollTop = document.getElementById("chatScreen").scrollHeight;
+  }
+
+  function buttonEnterPressed(){
+    if (event.keyCode == 13) {
+      this.message();
+      return false;
+    }else if(event.keyCode == 27){
+      $(x).hide();
+    }
+  }
+  </script>
+
+  <!-- End Sign Up Modal -->
+
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

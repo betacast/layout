@@ -21,7 +21,7 @@
     <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
-
+<!-- Commit-->
     <!-- Add your site or application content here -->
     <div class="navbar navbar-default">
         <div class="navbar-header">
@@ -92,52 +92,135 @@
         </div>
     </div>
 
-    <div class="col-xs-6">
+    <div class="col-xs-9">
       <div class="panel panel-default ">
-      <div class="panel-heading">Review</div>
-      <div class="panel-body">
-      <div ng-controller='reviewController'>
-          <table class="table table-bordered">
-              <thead>
-                  <tr>
-                      <th>Nome do Jogo</th>
-                      <th>Média</th>
-                      <th>Review</th>
-                      <th>Comentários</th>
-                  </tr>
-              </thead>
-              <tbody>
-                  <tr>
-                      <td>Mario da burrinha</td>
-                      <td>10.0</td>
-                      <td>100.000.000</td>
+        <div class="panel-heading"><h3><b>Review</b></h3></div>
+        <div class="panel-body">
+          <div class="panel panel-default games-panel list-group">
+            
+            <div class="panel-body list-group-item">
+              <div class="col-xs-8">
+                <img src="http://imgs-srzd.s3.amazonaws.com/srzd/upload/l/e/leleks.jpg" alt="" class="game-icon"/>
 
-                      <td>
-                          <button type="button" class="btn btn-default">Visualizar</button>
-                      </td>
-                  </tr>
-                  <tr>
-                      <td>Batman</td>
-                      <td>10.0</td>
-                      <td>50.345.30</td>
-                      <td>
-                          <button type="button" class="btn btn-default">Visualizar</button>
-                      </td>
-                  </tr>
-                  <tr>
-                      <td>Bomberman</td>
-                      <td>10.0</td>
-                      <td>45.454.98</td>
-                      <td>
-                          <button type="button" class="btn btn-default">Visualizar</button>
-                      </td>
-                  </tr>
-              </tbody>
-          </table>
+                <div class = "game-list-title">
+                  Joguim dos Leleks 2 - Lesk's Revenge
+                </div>
+                <p>
+                  Se prepare pra esse lelekagem e zuera.
+                </p>
+                <p class="list-group-item-text">
+                <span class="fa icon far-left fa-play-circle-o "></span> <a href="#">Jogar</a>
+                <span class="hidden-xs">
+                  <span class="fa icon fa-comments "></span><a href="#">Comentários</a>
+                  <span class="fa icon fa-pencil "></span><a href="#">Escrever Review</a>
+                </span>
+
+                <span class="fa icon fa-trophy"></span><a href="#" data-toggle="collapse" data-target="#achievements-list">Conquistas</a>
+
+                </p>
+              </div>
+              <div class="col-xs-4">
+                <div class = "game-list-stars pull-right">
+                  <span class="fa fa-star color-yellow"></span>
+                  <span class="fa fa-star color-yellow"></span>
+                  <span class="fa fa-star color-yellow"></span>
+                  <span class="fa fa-star-half-o color-yellow"></span>
+                  <span class="fa fa-star-o color-yellow"></span>
+                </div>
+                <br>
+                <h4 class = "pull-right"><b>Media:</b> 8.0<br>
+                <b>Reviews:</b> 50.345.30</h4>
+              </div>                    
+            </div>
+              
+            
+            <div class="panel-body list-group-item">
+              <div class="col-xs-8">
+                <img id="irc_mi" src="http://www.kerogames.com/wp-content/uploads/2014/02/Capa-Batman-Arkham-Asylum.jpg" alt="" class="game-icon" >
+
+                <div class = "game-list-title">
+                  Batman
+                </div>
+                <p>
+                  Complemento
+                </p>
+                <p class="list-group-item-text pull-down">
+                <span class="fa icon far-left fa-play-circle-o "></span> <a href="#">Jogar</a>
+                <span class="hidden-xs">
+                  <span class="fa icon fa-comments "></span><a href="#">Comentários</a>
+                  <span class="fa icon fa-pencil "></span><a href="#">Escrever Review</a>
+                </span>
+
+                <span class="fa icon fa-trophy"></span><a href="#" data-toggle="collapse" data-target="#achievements-list">Conquistas</a>
+
+                </p>
+              </div>
+              <div class="col-xs-4">
+                <div class = "game-list-stars pull-right">
+                  <span class="fa fa-star color-yellow"></span>
+                  <span class="fa fa-star color-yellow"></span>
+                  <span class="fa fa-star color-yellow"></span>
+                  <span class="fa fa-star-half-o color-yellow"></span>
+                  <span class="fa fa-star-o color-yellow"></span>
+                </div>
+                               <br>
+                <h4 class = "pull-right"><b>Media:</b> 8.0<br>
+                <b>Reviews:</b> 50.345.30</h4>
+              </div>                    
+            </div>
+            
+            
+            <div class="panel-body list-group-item">
+              <div class="col-xs-8">
+                <img id="irc_mi" src="http://2.bp.blogspot.com/-0q6qWnDKu04/UFQlwCyOjdI/AAAAAAAAAQY/SGVeNn0niac/s1600/800px-Super.Bomberman.Box.Art.SNES.PALwtmk.jpg" alt="" class="game-icon" >
+
+                <div class = "game-list-title">
+                  Bomberman
+                </div>
+                <p>
+                  Complemento
+                </p>
+                <p class="list-group-item-text pull-down">
+                <span class="fa icon far-left fa-play-circle-o "></span> <a href="#">Jogar</a>
+                <span class="hidden-xs">
+                  <span class="fa icon fa-comments "></span><a href="#">Comentários</a>
+                  <span class="fa icon fa-pencil "></span><a href="#">Escrever Review</a>
+                </span>
+
+                <span class="fa icon fa-trophy"></span><a href="#" data-toggle="collapse" data-target="#achievements-list">Conquistas</a>
+
+                </p>
+              </div>
+              <div class="col-xs-4">
+                <div class = "game-list-stars pull-right">
+                  <span class="fa fa-star color-yellow"></span>
+                  <span class="fa fa-star color-yellow"></span>
+                  <span class="fa fa-star color-yellow"></span>
+                  <span class="fa fa-star-half-o color-yellow"></span>
+                  <span class="fa fa-star-o color-yellow"></span>
+                </div>
+                <br>
+                <h4 class = "pull-right"><b>Media:</b> 10.0<br>
+                <b>Reviews:</b> 45.454.98</h4>
+              </div>                    
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-      </div>
+      
+      <ul class="pagination">
+        <li class="disabled"><a href="#">«</a></li>
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">»</a></li>
+      </ul>
+
+      
     </div>
+
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
